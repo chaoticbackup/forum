@@ -1,0 +1,27 @@
+@import "sass-css3-mixins/css3-mixins.scss";
+
+/* 
+I pruned some unused code. 
+Archived code found at github.com/chaoticbackup/forum 
+*/
+
+/*fit background to screen*/
+body {
+	background: url('http://i48.servimg.com/u/f48/17/08/39/22/visual10.jpg') fixed no-repeat center top;
+	@include background-size(cover);
+}
+
+
+
+/************************/
+/******* Chatbox ********/
+/************************/
+@import 'chatbox';
+/************************/
+/****** Mobile CSS ******/
+/************************/
+@import 'mobile';
+/************************/
+/*** Color Usernames ****/
+/************************/
+@import 'usernames';

@@ -1,0 +1,70 @@
+a[href="/u30"] span[style], a[href="/u30"] {
+  color: #FE2E9A !important;
+  @include text-shadow(0px, 0px, 2px, #FE2E9A);
+}
+a[href="/u157"] span[style], a[href="/u157"] {
+  /*supercel*/
+  color: #C00000 !important;
+}
+
+a[href="/u168"] span[style], a[href="/u168"] {
+  color: #450D4F !important;
+}
+
+/*Max's flame */
+a[href="/u34"] span[style], a[href="/u34"] {
+  color: #000000 !important;
+  text-decoration: none;
+  @include css3-prefix(text-shadow, "0 0 2px #fefcc9, 1px -1px 2px #feec85, -2px -2px 4px #ffae34, 2px -4px 5px #ec760c, -2px -6px 6px #cd4606, 0 -8px 7px #973716, 1px -9px 8px #451b0e");
+  -webkit-text-fill-color: rgba(0, 0, 0, 0.75);
+}
+
+/*Username Shadow */
+a[href="/u1"] {
+  @include text-shadow(0px, 0px, 2px, #0066cc);
+}
+
+/*Username Gradient - Blitser's nightmare of CSS*/
+a[href="/u43"] {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.4, #0066FF), color-stop(1, #000000));
+  background-image: -o-linear-gradient(bottom, #0066FF 40%, #000000 100%);
+  background-image: -moz-linear-gradient(bottom, #0066FF 40%, #000000 100%);
+  background-image: -webkit-linear-gradient(bottom, #0066FF 40%, #000000 100%);
+  background-image: -ms-linear-gradient(bottom, #0066FF 40%, #000000 100%);
+  background-image: linear-gradient(to bottom, #0066FF 40%, #000000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+}
+a[href="/u31"] {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.4, #FF0000), color-stop(1, #000000));
+  background-image: -o-linear-gradient(bottom, #FF0000 40%, #000000 100%);
+  background-image: -moz-linear-gradient(bottom, #FF0000 40%, #000000 100%);
+  background-image: -webkit-linear-gradient(bottom, #FF0000 40%, #000000 100%);
+  background-image: -ms-linear-gradient(bottom, #FF0000 40%, #000000 100%);
+  background-image: linear-gradient(to bottom, #FF0000 40%, #000000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+}
+
+/*Mangekyou Sharingan*/
+a[href="/u26"] span {
+  background: url("http://i57.servimg.com/u/f57/18/51/29/66/mangek10.png") no-repeat;
+  padding-left: 19px;
+  padding-top: 2px;
+}
+
+/*Crown*/
+a[href="/u35"] span {
+  background: url("http://illiweb.com/fa/admin/couronne.png") no-repeat;
+  padding-left: 19px;
+  padding-top: 2px;
+}
+a[href="/u21"], a[href="/u21"] span[style] {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
+  background-image: gradient(linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+  letter-spacing: -1px;
+  font-weight: 900;
+}
