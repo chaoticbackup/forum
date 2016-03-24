@@ -31,14 +31,24 @@ div#logostrip #logo {
   color: black;
   font-weight: bold;
 }
+/*The following two recolor links */
+a:link, a:visited {
+  color: #000;
+}
+a:hover {
+  color: #1D4B9E;
+}
 
-/*Navigation Bar*/
+/* Navigation Bar */
 @import 'navbar';
 
-/*Code and Quote boxes*/
-@import 'codebox';
+/*categories and forums divs */
+@import 'categories';
 
-/*Like System */
+/* Posts */
+@import 'posts';
+
+/* Like System */
 @import 'lglike';
 
 /* Chatbox */

@@ -1,0 +1,53 @@
+div.maintitle {
+  background-color: #FFFFFF;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+/*Catagory title font*/
+div.maintitle div.toggle, div.maintitle h1, div.maintitle h2, div.maintitle h3 {
+  font-family: Verdana, Arial, Tahoma;
+  font-size: 8pt;
+  font-weight: bold;
+  color: #111111;
+}
+
+.forumtitle {
+  font-family: Verdana, Arial, Tahoma;
+  font-size: 10pt;
+  font-weight: bold;
+  color: #111111;
+}
+
+.row2 {
+  background-color: #C2D8D6;
+}
+.row1 {
+  background-color: #7A9197;
+}
+
+table.ipbtable tfoot td {
+  background-color: #ced7e5;
+  height: 2px;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+table.ipbtable td {
+  padding: 0px;
+  padding-top: 10px;
+}
+
+/*minimise button*/
+div.maintitle .contract, div.maintitle .expand {
+  background: url(http://i80.servimg.com/u/f80/17/08/39/22/misc_c10.gif) no-repeat 50% 50%;
+}
+.borderwrapm, div.borderwrap {
+  background-color: #313131;
+  border: 0px;
+}
+/*this needs to be anywhere after borderwrapm to work*/
+.polls {
+  background-color: #eff1f3;
+}
