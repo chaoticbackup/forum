@@ -1,0 +1,44 @@
+blockquote {
+  background-color: #191919;
+  background-image: url('http://i65.servimg.com/u/f65/11/95/30/70/fond12.jpg');
+  border: 1px solid #888888;
+  @include border-radius-separate(15px, 15px, 0, 0);
+  color: #fff;
+  padding: 5px;
+}
+blockquote cite {
+  background-image: url('http://i65.servimg.com/u/f65/11/95/30/70/citati11.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+  color: #000;
+  font-weight: bold;
+  background-color: #707070;
+  border: 1px solid #888888;
+  @include border-radius(12px);
+}
+.codebox dt {
+  background-image: url('http://i65.servimg.com/u/f65/11/95/30/70/citati10.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding: 5px 10px 3px 3px;
+  color: #000;
+  font-weight: bold;
+  background-color: #707070;
+  border: 1px solid #888888;
+  @include border-radius(12px);
+}
+.codebox dd {
+  background-color: #191919;
+  background-image: url('http://i65.servimg.com/u/f65/11/95/30/70/fond12.jpg');
+  border: 1px solid #888888;
+  @include border-radius-separate(15px, 15px, 0, 0);
+  color: #fff;
+  padding: 5px;
+}
+/*The following two recolor links for the select content box*/
+.code-a {
+  color: #1D4B9E !important;
+}
+.code-a:hover {
+  text-decoration: underline;
+}
