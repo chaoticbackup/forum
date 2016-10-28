@@ -22,6 +22,7 @@ a[href="/u34"] span[style], a[href="/u34"] {
 /*Username Shadow */
 a[href="/u1"] {
   @include text-shadow(0px, 0px, 2px, #0066cc);
+  text-decoration: none;
 }
 
 /*Username Gradient - Blitser's nightmare of CSS*/
