@@ -1,10 +1,5 @@
-A repo for the forum's CSS
+Repository to hold scripts and css used in the Chaotic Backup Forum website.
 
-sass:  
-http://sass-lang.com/documentation/file.SASS_REFERENCE.html
-
-Compiling css:
-> sass --sourcemap=none --style=expanded forum.scss output.css
 
 ###Licence
 
