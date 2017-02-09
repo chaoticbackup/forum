@@ -1,0 +1,32 @@
+/*fit background to screen*/
+body {
+	background: url('http://i48.servimg.com/u/f48/17/08/39/22/visual10.jpg') fixed no-repeat center top;
+	@include background-size(cover);
+}
+/*Remove site description*/
+#site-desc {
+  display: none;
+}
+/*background behind the forum title*/
+#logostrip {
+  background: transparent !important;
+  text-align: center;
+}
+div#logostrip #logo {
+  margin: 0 0 0 0;
+}
+/*the title that says forum*/
+.forum {
+  padding-left: 50px !important;
+  font-family: Verdana, Arial, Tahoma;
+  font-size: 8pt;
+  color: black;
+  font-weight: bold;
+}
+/*The following two recolor links */
+a:link, a:visited {
+  color: #000;
+}
+a:hover {
+  color: #1D4B9E;
+}

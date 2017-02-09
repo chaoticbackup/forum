@@ -1,0 +1,39 @@
+/*This is important so the AvacWeb Chat Private Messaging system Private*/
+.a_chat_pm tr, .a_chat_pm td, .a_chat_tab tr, .a_chat_tab td {
+  display: none !important;
+}
+.a_chat_pm:before, .a_chat_tab:before {
+  content: 'Hidden Content';
+  font-style: italic;
+}
+#avacweb_chat {
+  line-height: normal;
+}
+#avacweb_chat_button {
+  bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #777777;
+  background-color: #ced7e5;
+  border: 1px solid #313131;
+  @include css3-prefix(box-shadow, none);
+}
+#awc_form {
+  width: none;
+}
+#awc_message {
+  width: 70%;
+}
+#awc_footer, #awc_header, #chatbox_header, #chatbox_footer {
+  background: #ced7e5;
+}
+#awc_header > span {
+  color: #000;
+  @include css3-prefix(text-shadow, none);
+}
+#awc_userlist > h4.member-title {
+  background-color: #c6ccd4;
+}
+#chatbox_header, #chatbox_footer {
+  @include css3-prefix(box-shadow, none);
+}

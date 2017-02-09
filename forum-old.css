@@ -1,0 +1,596 @@
+/* 
+I pruned some unused code. 
+Archived code found at github.com/chaoticbackup/forum 
+*/
+
+/*fit background to screen*/
+body {
+  background: url('http://i48.servimg.com/u/f48/17/08/39/22/visual10.jpg') fixed no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#site-desc {
+  display: none;
+}
+
+/*background behind the forum title*/
+#logostrip {
+  background: transparent !important;
+  text-align: center;
+}
+div#logostrip #logo {
+  margin: 0 0 0 0;
+}
+
+/*the title that says forum*/
+.forum {
+  padding-left: 50px !important;
+  font-family: Verdana, Arial, Tahoma;
+  font-size: 8pt;
+  color: black;
+  font-weight: bold;
+}
+
+/*Move the reply button to the left*/
+div.pagination.topic-options {
+  float: right;
+  width: initial;
+}
+.post-icon {
+  padding-right: .5em;
+}
+.posting-options.topic-options {
+  float: left;
+  width: initial;
+}
+
+/*Change color of page number buttons*/
+strong.pagination a {
+  background-color: #d6e1eb;
+  border: 1px #3f3f3f solid;
+  margin: 0px;
+}
+
+/*Remove widget*/
+#demandio_widget {
+  display: none !important;
+}
+
+/*remove log in navibar for guests*/
+#userlinks.not-connected {
+  display: none;
+}
+
+/*The following two recolor links */
+a:link, a:visited {
+  color: #000;
+}
+a:hover {
+  color: #1D4B9E;
+}
+
+/*The following two recolor links for the select content box*/
+.code-a {
+  color: #1D4B9E !important;
+}
+.code-a:hover {
+  text-decoration: underline;
+}
+
+/*post backgrounds*/
+.postbody, .post, .postprofile {
+  background-color: #C2D8D6;
+}
+.postprofile-head, .postbody-head {
+  background-color: #7A9097 !important;
+}
+.post-footer {
+  background-color: #211a1a;
+}
+.post {
+  border-bottom: 0px;
+}
+
+/*Poll Box*/
+.poll fieldset {
+  margin: 0px;
+  padding: 1em;
+  background-color: white;
+}
+.poll .poll-choice {
+  background-color: white;
+}
+
+/*Limit Signiture Size*/
+div.signature_div {
+  vertical-align: bottom;
+  max-height: 220px;
+  max-width: 100%;
+  overflow: auto;
+}
+div.maintitle {
+  background-color: #FFFFFF;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.row2 {
+  background-color: #C2D8D6;
+}
+.row1 {
+  background-color: #7A9197;
+}
+div.post-entry div {
+  font-size: 14px;
+}
+
+/* Navbar */
+#submenu a:nth-last-child(-n+3) {
+  float: right;
+  padding-right: .5em;
+}
+#submenu a:nth-last-child(3) {
+  padding-right: 1em;
+}
+#navstrip {
+  background-color: #E9E9E9;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border: 1px black solid;
+  outline: white solid 1px;
+}
+#navstrip li {
+  background: url(http://i57.servimg.com/u/f57/17/08/39/22/arrows10.png) no-repeat left 50%;
+  margin: 0px 4px;
+  margin-top: 4px;
+  text-decoration: underline;
+  font-family: Verdana, Arial, Tahoma;
+  font-size: 8pt;
+  font-weight: bold;
+}
+#navstrip li.begin {
+  text-decoration: underline;
+  background: none;
+  padding-left: 6px;
+  margin: 4px;
+  font-family: Verdana, Arial, Tahoma;
+  font-size: 8pt;
+  font-weight: bold;
+}
+
+/*Section title font*/
+div.maintitle div.toggle, div.maintitle h1, div.maintitle h2, div.maintitle h3 {
+  font-family: Verdana, Arial, Tahoma;
+  font-size: 8pt;
+  font-weight: bold;
+  color: #111111;
+}
+
+/*minimise button*/
+div.maintitle .contract, div.maintitle .expand {
+  background: url(http://i80.servimg.com/u/f80/17/08/39/22/misc_c10.gif) no-repeat 50% 50%;
+}
+.borderwrapm, div.borderwrap {
+  background-color: #313131;
+  border: 0px;
+}
+/*this needs to be anywhere after borderwrapm to work*/
+.polls {
+  background-color: #eff1f3;
+}
+
+/* Forums Tables */
+.forumtitle {
+  font-family: Verdana, Arial, Tahoma;
+  font-size: 10pt;
+  font-weight: bold;
+  color: #111111;
+}
+
+table.ipbtable tfoot td {
+  background-color: #ced7e5;
+  height: 2px;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+table.ipbtable td {
+  padding: 0px;
+  padding-top: 10px;
+}
+
+/*Code and Quote boxes*/
+blockquote {
+  background-color: #191919;
+  background-image: url('http://i65.servimg.com/u/f65/11/95/30/70/fond12.jpg');
+  border: 1px solid #888888;
+  -moz-border-radius-topleft: 15px;
+  -webkit-border-radius-topleft: 15px;
+  color: #fff;
+  padding: 5px;
+}
+blockquote cite {
+  background-image: url('http://i65.servimg.com/u/f65/11/95/30/70/citati11.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+  color: #000;
+  font-weight: bold;
+  background-color: #707070;
+  border: 1px solid #888888;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+}
+.codebox dt {
+  background-image: url('http://i65.servimg.com/u/f65/11/95/30/70/citati10.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding: 5px 10px 3px 3px;
+  color: #000;
+  font-weight: bold;
+  background-color: #707070;
+  border: 1px solid #888888;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+}
+.codebox dd {
+  background-color: #191919;
+  background-image: url('http://i65.servimg.com/u/f65/11/95/30/70/fond12.jpg');
+  border: 1px solid #888888;
+  -moz-border-radius-topleft: 15px;
+  -webkit-border-radius-topleft: 15px;
+  -moz-border-radius-topright: 15px;
+  -webkit-border-radius-topright: 15px;
+  -moz-border-radius-bottomright: 0px;
+  -webkit-border-radius-bottomright: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  -webkit-border-radius-bottomleft: 0px;
+  color: #fff;
+  padding: 5px;
+}
+
+/*Submenu and userlinks - navigation bar*/
+#submenu ul li a {
+  padding: 0px;
+  margin: 0px 0px 0px 0px;
+  text-decoration: none;
+  border: none;
+}
+#submenu ul li a a:hover {
+  background-color: transparent !important;
+  padding: 0px;
+  margin: 0px 0px 0px 0px;
+  text-decoration: none;
+  border: none;
+}
+#submenu a:hover {
+  background-color: transparent;
+}
+#submenu {
+  background-color: #BBD0DA;
+  border: 1px black solid;
+  padding-top: 8px;
+  margin-bottom: 1px;
+  padding-left: 10px;
+  outline: white solid 1px;
+}
+#userlinks {
+  background-color: #A1C4D0;
+  margin: 0px;
+  border: 1px black solid;
+  outline: white solid 1px;
+}
+#userlinks.not-connected {
+  background-color: transparent !important;
+  border-bottom: 0px;
+  padding-top: 74px;
+}
+#userlinks ul {
+  margin-top: 6px;
+  font-family: Verdana, Arial, Tahoma;
+  font-size: 8pt;
+  color: #454545;
+  -moz-border-radius-topleft: 0px;
+  -webkit-border-radius-topleft: 0px;
+  -moz-border-radius-topright: 0px;
+  -webkit-border-radius-topright: 0px;
+  -moz-border-radius-bottomright: 15px;
+  -webkit-border-radius-bottomright: 15px;
+  -moz-border-radius-bottomleft: 15px;
+  -webkit-border-radius-bottomleft: 15px;
+}
+#userlinks p {
+  margin: 5px;
+}
+#userlinks.not-connected .guest {
+  background-color: #282828;
+  border: 1px solid #646464;
+  padding: 4px;
+  -moz-border-radius-topleft: 0px;
+  -webkit-border-radius-topleft: 0px;
+  -moz-border-radius-topright: 0px;
+  -webkit-border-radius-topright: 0px;
+  -moz-border-radius-bottomright: 15px;
+  -webkit-border-radius-bottomright: 15px;
+  -moz-border-radius-bottomleft: 15px;
+  -webkit-border-radius-bottomleft: 15px;
+}
+#userlinks.not-connected span {
+  background-color: #282828;
+  border: 1px solid #646464;
+  padding: 4px;
+  -moz-border-radius-topleft: 0px;
+  -webkit-border-radius-topleft: 0px;
+  -moz-border-radius-topright: 0px;
+  -webkit-border-radius-topright: 0px;
+  -moz-border-radius-bottomright: 15px;
+  -webkit-border-radius-bottomright: 15px;
+  -moz-border-radius-bottomleft: 15px;
+  -webkit-border-radius-bottomleft: 15px;
+}
+#userlinks.not-connected a.visited {
+  background-color: #282828;
+  border: 1px solid #646464;
+  padding: 4px;
+  -moz-border-radius-topleft: 0px;
+  -webkit-border-radius-topleft: 0px;
+  -moz-border-radius-topright: 0px;
+  -webkit-border-radius-topright: 0px;
+  -moz-border-radius-bottomright: 15px;
+  -webkit-border-radius-bottomright: 15px;
+  -moz-border-radius-bottomleft: 15px;
+  -webkit-border-radius-bottomleft: 15px;
+}
+
+/*Like System */
+.LGlike {
+  background: #105289;
+  padding: 3px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  text-shadow: -1px 0.5px #888;
+  box-shadow: 1px 1px 1px #888;
+  cursor: pointer;
+  margin-right: 4px;
+}
+.LGvote {
+  margin: 0 5px;
+}
+.LGnovote {
+  filter: Alpha(opacity=50);
+  opacity: 0.5;
+  cursor: default;
+  box-shadow: none;
+  text-shadow: none;
+}
+.LGlikecount {
+  color: #fff;
+}
+
+/************************/
+/******* Chatbox ********/
+/************************/
+/*This is important so the AvacWeb Chat Private Messaging system Private*/
+.a_chat_pm tr, .a_chat_pm td, .a_chat_tab tr, .a_chat_tab td {
+  display: none !important;
+}
+.a_chat_pm:before, .a_chat_tab:before {
+  content: 'Hidden Content';
+  font-style: italic;
+}
+#avacweb_chat {
+  line-height: normal !important;
+}
+#avacweb_chat_button {
+  bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #777777;
+  background-color: #ced7e5;
+  border: 1px solid #313131;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  text-shadow: none;
+}
+#awc_form {
+  width: none;
+}
+#awc_message {
+  width: 70%;
+}
+#awc_footer, #awc_header {
+  background: #ced7e5;
+}
+#awc_header > span {
+  color: #000;
+  text-shadow: none;
+}
+#awc_userlist > h4.member-title {
+  background-color: #c6ccd4;
+}
+#chatbox_header, #chatbox_footer {
+  background-color: #ced7e5 !important;
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+/************************/
+/****** Mobile CSS ******/
+/************************/
+#mpage-body .post {
+  font-size: 0.9em;
+}
+.mobile_title {
+  font-size: 1em;
+  background: linear-gradient(#BBD0DA, #A1C4D0);
+  border-top: none;
+  border-bottom: #000;
+}
+.mobile_title_content {
+  text-shadow: none;
+  color: #000;
+}
+.mobile_set {
+  background: linear-gradient(#FFFFFF, #ced7e5);
+  color: inherit;
+}
+.postbody .post_header {
+  background: #7A9097;
+  color: inherit;
+}
+.postbody .post_content {
+  border-bottom: 1px solid #9aa4b1;
+}
+.postbody:after {
+  height: 0px;
+}
+#mpage-body .row2, #mpage-body .row1 {
+  background: #000;
+}
+.mobile_set_content {
+  text-shadow: none;
+}
+.mobile_item {
+  background: #C2D8D6;
+  border: none;
+  border-bottom: 1px solid #dcdcdc;
+}
+.mobile_prev_button, .mobile_prev_button, .mobile_next_button {
+  background: linear-gradient(#DBE9F7, #879FC8);
+}
+.mobile_prev_button p, .mobile_prev_button p, .mobile_next_button p {
+  text-shadow: -1px -1px 0 #EFF5FD, 1px -1px 0 #EFF5FD, -1px 1px 0 #D9DFE7, 1px 1px 0 #D9DFE7;
+  color: #000;
+}
+.application_footer_spacer {
+  background: #dfe6ef;
+  height: 2em;
+}
+.forabg .mobile_item_link_content .mobile_subtitle + .mobile_comment {
+  height: 0px;
+}
+/*Icons*/
+.forum_new, .cat_new {
+  background: url(http://i48.servimg.com/u/f48/17/08/39/22/folder10.gif) no-repeat scroll 0 50%;
+}
+.forum_no_new, .cat_no_new {
+  background: url(http://i48.servimg.com/u/f48/17/08/39/22/folder12.gif) no-repeat scroll 0 50%;
+}
+.folder_announce {
+  background: url(http://i39.servimg.com/u/f39/17/08/39/22/announ11.png) no-repeat scroll 0 50%;
+}
+.folder_announce_new {
+  background: url(http://i39.servimg.com/u/f39/17/08/39/22/announ12.png) no-repeat scroll 0 50%;
+}
+.folder_sticky {
+  background: url(http://i39.servimg.com/u/f39/17/08/39/22/pinned11.png) no-repeat scroll 0 50%;
+}
+.folder_sticky_new {
+  background: url(http://i39.servimg.com/u/f39/17/08/39/22/pinned12.png) no-repeat scroll 0 50%;
+}
+.folder_locked {
+  background: url(http://i48.servimg.com/u/f48/17/08/39/22/topic_11.gif) no-repeat scroll 0 50%;
+}
+.folder_new {
+  background: url(http://i48.servimg.com/u/f48/17/08/39/22/topic_14.gif) no-repeat scroll 0 50%;
+}
+.folder_no_new {
+  background: url(http://i48.servimg.com/u/f48/17/08/39/22/topic_13.gif) no-repeat scroll 0 50%;
+}
+.folder_hot {
+  background: url(http://i48.servimg.com/u/f48/17/08/39/22/topic_12.gif) no-repeat scroll 0 50%;
+}
+.folder_hot_new {
+  background: url(http://i48.servimg.com/u/f48/17/08/39/22/topic_10.gif) no-repeat scroll 0 50%;
+}
+/***********************/
+/*** Color Usernames ***/
+/***********************/
+a[href="/u30"] span[style], a[href="/u30"] {
+  color: #FE2E9A !important;
+  text-shadow: 0px 0px 2px #FE2E9A;
+}
+a[href="/u157"] span[style], a[href="/u157"] {
+
+  /*supercel*/
+  color: #C00000 !important;
+}
+
+a[href="/u168"] span[style], a[href="/u168"] {
+  color: #450D4F !important;
+}
+
+/*Max's flame */
+a[href="/u34"] span[style], a[href="/u34"] {
+
+  /*color: #feec85 !important;*/
+  color: #000000 !important;
+  text-decoration: none;
+  text-shadow: 0 0 2px #fefcc9, 1px -1px 2px #feec85, -2px -2px 4px #ffae34, 2px -4px 5px #ec760c, -2px -6px 6px #cd4606, 0 -8px 7px #973716, 1px -9px 8px #451b0e;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0.75);
+}
+
+/*Username Shadow */
+a[href="/u1"] {
+  text-shadow: 0px 0px 2px #0066cc;
+}
+
+/*Username Gradient - Blitser's nightmare of CSS*/
+a[href="/u43"] {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.4, #0066FF), color-stop(1, #000000));
+  background-image: -o-linear-gradient(bottom, #0066FF 40%, #000000 100%);
+  background-image: -moz-linear-gradient(bottom, #0066FF 40%, #000000 100%);
+  background-image: -webkit-linear-gradient(bottom, #0066FF 40%, #000000 100%);
+  background-image: -ms-linear-gradient(bottom, #0066FF 40%, #000000 100%);
+  background-image: linear-gradient(to bottom, #0066FF 40%, #000000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+}
+a[href="/u31"] {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.4, #FF0000), color-stop(1, #000000));
+  background-image: -o-linear-gradient(bottom, #FF0000 40%, #000000 100%);
+  background-image: -moz-linear-gradient(bottom, #FF0000 40%, #000000 100%);
+  background-image: -webkit-linear-gradient(bottom, #FF0000 40%, #000000 100%);
+  background-image: -ms-linear-gradient(bottom, #FF0000 40%, #000000 100%);
+  background-image: linear-gradient(to bottom, #FF0000 40%, #000000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+}
+
+/*Mangekyou Sharingan*/
+a[href="/u26"] span {
+  background: url("http://i57.servimg.com/u/f57/18/51/29/66/mangek10.png") no-repeat;
+  padding-left: 19px;
+  padding-top: 2px;
+}
+
+/*Crown*/
+a[href="/u35"] span {
+  background: url("http://illiweb.com/fa/admin/couronne.png") no-repeat;
+  padding-left: 19px;
+  padding-top: 2px;
+}
+a[href="/u21"], a[href="/u21"] span[style] {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
+  background-image: gradient(linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+  letter-spacing: -1px;
+  font-weight: 900;
+}
+
+/*Chatbox username effects*/
+#chatbox p span.user-msg span.user a[href="/u1"] {
+  background: url("http://imgflip.com/i/233cg") no-repeat;
+}
+#chatbox p span.user-msg span.user a[href="/u24"] {
+  background: url("http://i45.servimg.com/u/f45/15/95/60/34/glitte10.gif") no-repeat;
+}
