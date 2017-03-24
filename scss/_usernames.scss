@@ -1,11 +1,5 @@
-/* Plok username colour
-a[href="/u30"] span[style], a[href="/u30"] {
-  color: #FE2E9A !important;
-  text-shadow: 0px 0px 2px #FE2E9A;
-} */
-
+/*supercel*/
 a[href="/u157"] span[style], a[href="/u157"] {
-  /*supercel*/
   color: #C00000 !important;
 }
 
@@ -13,62 +7,11 @@ a[href="/u168"] span[style], a[href="/u168"] {
   color: #450D4F !important;
 }
 
-/*Max's flame
-a[href="/u34"] span[style], a[href="/u34"] {
-  color: #000000 !important;
-  text-decoration: none;
-  -webkit-text-shadow: 0 0 2px #fefcc9, 1px -1px 2px #feec85, -2px -2px 4px #ffae34, 2px -4px 5px #ec760c, -2px -6px 6px #cd4606, 0 -8px 7px #973716, 1px -9px 8px #451b0e;
-  -moz-text-shadow: 0 0 2px #fefcc9, 1px -1px 2px #feec85, -2px -2px 4px #ffae34, 2px -4px 5px #ec760c, -2px -6px 6px #cd4606, 0 -8px 7px #973716, 1px -9px 8px #451b0e;
-  -ms-text-shadow: 0 0 2px #fefcc9, 1px -1px 2px #feec85, -2px -2px 4px #ffae34, 2px -4px 5px #ec760c, -2px -6px 6px #cd4606, 0 -8px 7px #973716, 1px -9px 8px #451b0e;
-  -o-text-shadow: 0 0 2px #fefcc9, 1px -1px 2px #feec85, -2px -2px 4px #ffae34, 2px -4px 5px #ec760c, -2px -6px 6px #cd4606, 0 -8px 7px #973716, 1px -9px 8px #451b0e;
-  text-shadow: 0 0 2px #fefcc9, 1px -1px 2px #feec85, -2px -2px 4px #ffae34, 2px -4px 5px #ec760c, -2px -6px 6px #cd4606, 0 -8px 7px #973716, 1px -9px 8px #451b0e;
-  -webkit-text-fill-color: rgba(0, 0, 0, 0.75);
-}*/
-
-/* Marr's Shadow */
-a[href="/u1"] {
+/* Admin Blue Shadow */
+a[href="/u1"], a[href="/u43"]{
   text-shadow: 0px 0px 2px #0066cc;
   text-decoration: none;
 }
-
-/* Blitser's Shadow */
-a[href="/u43"] {
-  text-shadow: 0px 0px 2px #0066cc;
-  text-decoration: none;
-}
-
-/* Blaz's Shadow */
-a[href="/u21"] {
-  text-shadow: 0px 0px 2px #0066cc;
-  text-decoration: none;
-}
-
-
-
-/*Username Gradient - Blitser's nightmare of CSS
-a[href="/u43"] {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.4, #0066FF), color-stop(1, #000000));
-  background-image: -o-linear-gradient(bottom, #0066FF 40%, #000000 100%);
-  background-image: -moz-linear-gradient(bottom, #0066FF 40%, #000000 100%);
-  background-image: -webkit-linear-gradient(bottom, #0066FF 40%, #000000 100%);
-  background-image: -ms-linear-gradient(bottom, #0066FF 40%, #000000 100%);
-  background-image: linear-gradient(to bottom, #0066FF 40%, #000000 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}*/
-
-
-/*
-a[href="/u31"] {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.4, #FF0000), color-stop(1, #000000));
-  background-image: -o-linear-gradient(bottom, #FF0000 40%, #000000 100%);
-  background-image: -moz-linear-gradient(bottom, #FF0000 40%, #000000 100%);
-  background-image: -webkit-linear-gradient(bottom, #FF0000 40%, #000000 100%);
-  background-image: -ms-linear-gradient(bottom, #FF0000 40%, #000000 100%);
-  background-image: linear-gradient(to bottom, #FF0000 40%, #000000 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}*/
 
 /*Mangekyou Sharingan*/
 a[href="/u26"] span {
@@ -86,34 +29,60 @@ a[href="/u35"] span {
 }
 
 /*Gavel*/
-a[href="/u43"] span {
+a[href="/u43"] span, a[href="/u347"] span, a[href="/u205"] span {
   background: url("http://i.imgur.com/w60gLev.png") no-repeat;
   padding-left: 19px;
   padding-top: 2px;
 }
 
-/*StillGavel*/
-a[href="/u347"] span {
-  background: url("http://i.imgur.com/w60gLev.png") no-repeat;
-  padding-left: 19px;
-  padding-top: 2px;
-}
+// /* Plok username colour */
+// a[href="/u30"] span[style], a[href="/u30"] {
+//   color: #FE2E9A !important;
+//   text-shadow: 0px 0px 2px #FE2E9A;
+// }
 
-/*MoreGavel*/
-a[href="/u205"] span {
-  background: url("http://i.imgur.com/w60gLev.png") no-repeat;
-  padding-left: 19px;
-  padding-top: 2px;
-}
+// /* Max's flame */
+// a[href="/u34"] span[style], a[href="/u34"] {
+//   color: #000000 !important;
+//   text-decoration: none;
+//   -webkit-text-shadow: 0 0 2px #fefcc9, 1px -1px 2px #feec85, -2px -2px 4px #ffae34, 2px -4px 5px #ec760c, -2px -6px 6px #cd4606, 0 -8px 7px #973716, 1px -9px 8px #451b0e;
+//   -moz-text-shadow: 0 0 2px #fefcc9, 1px -1px 2px #feec85, -2px -2px 4px #ffae34, 2px -4px 5px #ec760c, -2px -6px 6px #cd4606, 0 -8px 7px #973716, 1px -9px 8px #451b0e;
+//   -ms-text-shadow: 0 0 2px #fefcc9, 1px -1px 2px #feec85, -2px -2px 4px #ffae34, 2px -4px 5px #ec760c, -2px -6px 6px #cd4606, 0 -8px 7px #973716, 1px -9px 8px #451b0e;
+//   -o-text-shadow: 0 0 2px #fefcc9, 1px -1px 2px #feec85, -2px -2px 4px #ffae34, 2px -4px 5px #ec760c, -2px -6px 6px #cd4606, 0 -8px 7px #973716, 1px -9px 8px #451b0e;
+//   text-shadow: 0 0 2px #fefcc9, 1px -1px 2px #feec85, -2px -2px 4px #ffae34, 2px -4px 5px #ec760c, -2px -6px 6px #cd4606, 0 -8px 7px #973716, 1px -9px 8px #451b0e;
+//   -webkit-text-fill-color: rgba(0, 0, 0, 0.75);
+// }
 
-/* Blaz's rainbow. If he wants it back he can log in and remove the commenting here.
-a[href="/u21"], a[href="/u21"] span[style] {
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
-  background-image: gradient(linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  letter-spacing: -1px;
-  font-weight: 900;
-}
-*/
+// /*Username Gradient - Blitser's nightmare of CSS*/
+// a[href="/u43"] {
+//   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.4, #0066FF), color-stop(1, #000000));
+//   background-image: -o-linear-gradient(bottom, #0066FF 40%, #000000 100%);
+//   background-image: -moz-linear-gradient(bottom, #0066FF 40%, #000000 100%);
+//   background-image: -webkit-linear-gradient(bottom, #0066FF 40%, #000000 100%);
+//   background-image: -ms-linear-gradient(bottom, #0066FF 40%, #000000 100%);
+//   background-image: linear-gradient(to bottom, #0066FF 40%, #000000 100%);
+//   -webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+// }
+
+// a[href="/u31"] {
+//   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.4, #FF0000), color-stop(1, #000000));
+//   background-image: -o-linear-gradient(bottom, #FF0000 40%, #000000 100%);
+//   background-image: -moz-linear-gradient(bottom, #FF0000 40%, #000000 100%);
+//   background-image: -webkit-linear-gradient(bottom, #FF0000 40%, #000000 100%);
+//   background-image: -ms-linear-gradient(bottom, #FF0000 40%, #000000 100%);
+//   background-image: linear-gradient(to bottom, #FF0000 40%, #000000 100%);
+//   -webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+// }
+
+// /* Blaz's rainbow. */
+// a[href="/u21"], a[href="/u21"] span[style] {
+//   background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
+//   background-image: gradient(linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
+//   -webkit-background-clip: text;
+//   background-clip: text;
+//   -webkit-text-fill-color: transparent;
+//   letter-spacing: -1px;
+//   font-weight: 900;
+// }
