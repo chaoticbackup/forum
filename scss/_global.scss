@@ -1,8 +1,12 @@
 /*fit background to screen*/
-body {
-	background: url('http://i48.servimg.com/u/f48/17/08/39/22/visual10.jpg') fixed no-repeat center top;
-	@include background-size(cover);
+@media screen and (min-width:500px)
+{
+  body {
+	  background: url('http://i48.servimg.com/u/f48/17/08/39/22/visual10.jpg') fixed no-repeat center top;
+	  @include background-size(cover);
+  }
 }
+
 /*Remove site description*/
 #site-desc {
   display: none;

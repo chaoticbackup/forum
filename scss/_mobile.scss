@@ -1,10 +1,63 @@
 @media screen and (max-width:500px){
 
+#wrap{
+  background: url('http://i48.servimg.com/u/f48/17/08/39/22/visual10.jpg') fixed no-repeat center top;
+  @include background-size(cover);
+}
+
+#header #mNavbar {
+  background-color: #c2d8d6;
+}
+
+#header .mobile_prev_button:after {
+  color: inherit;
+}
+
+.post-content {
+  font-size: 2em;
+}
+.quote_content span {
+  font-size: 1em !important;
+}
+
+.forum-content .forum-statistic {
+  display: none;
+}
+
+.forum-content .forum-lastpost {
+  color: #000;
+}
+
+.post-buttons {
+  background-color: #ced7e5;
+}
+
+h3 {
+  color: #000;
+  font-weight: inherit;
+}
+
+.forum {
+  padding-left: 0px !important;
+
+  h2 {
+    background-color: #FFFFFF;
+    color: #111111;
+  }
+}
+
+.forum-section {
+  background-color: #c2d8d6
+}
+
+.forum-section:before {
+  background-color: #ced7e5;
+}
+
 #mpage-body .post {
   font-size: 0.9em;
 }
 .mobile_title {
-  font-size: 1em;
   @include background-gradient(#E9E9E9, #A1C4D0);
   border-top: none;
   border-bottom: #000;
@@ -13,77 +66,85 @@
   @include css3-prefix(text-shadow, none);
   color: #000;
 }
-.mobile_set {
-  @include background-gradient(#FFFFFF, #ced7e5);
-  color: inherit;
-}
-.postbody .post_header {
-  background: #7A9097;
-  color: inherit;
-}
-.postbody .post_content {
-  border-bottom: 1px solid #9aa4b1;
-}
-.postbody:after {
-  height: 0px;
-}
-#mpage-body .row2, #mpage-body .row1 {
-  background: #000;
-}
-.mobile_set_content {
-  @include css3-prefix(text-shadow, none);
-}
-.mobile_item {
-  background: #C2D8D6;
-  border: none;
-  border-bottom: 1px solid #dcdcdc;
-}
-.mobile_prev_button, .mobile_prev_button, .mobile_next_button {
-  @include background-gradient(#DBE9F7, #879FC8);
-}
-.mobile_prev_button p, .mobile_prev_button p, .mobile_next_button p {
-  @include css3-prefix(text-shadow, "-1px -1px 0 #EFF5FD, 1px -1px 0 #EFF5FD, -1px 1px 0 #D9DFE7, 1px 1px 0 #D9DFE7");
-  color: #000;
-}
-.application_footer_spacer {
-  background: #dfe6ef;
-  height: 2em;
-}
-.forabg .mobile_item_link_content .mobile_subtitle + .mobile_comment {
-  height: 0px;
-}
+// .mobile_set {
+//   @include background-gradient(#FFFFFF, #ced7e5);
+//   color: inherit;
+// }
+// .postbody .post_header {
+//   background: #7A9097;
+//   color: inherit;
+// }
+// .postbody .post_content {
+//   border-bottom: 1px solid #9aa4b1;
+// }
+// .postbody:after {
+//   height: 0px;
+// }
+// #mpage-body .row2, #mpage-body .row1 {
+//   background: #000;
+// }
+// .mobile_set_content {
+//   @include css3-prefix(text-shadow, none);
+// }
+// .mobile_item {
+//   background: #C2D8D6;
+//   border: none;
+//   border-bottom: 1px solid #dcdcdc;
+// }
+// .mobile_prev_button, .mobile_prev_button, .mobile_next_button {
+//   @include background-gradient(#DBE9F7, #879FC8);
+// }
+// .mobile_prev_button p, .mobile_prev_button p, .mobile_next_button p {
+//   @include css3-prefix(text-shadow, "-1px -1px 0 #EFF5FD, 1px -1px 0 #EFF5FD, -1px 1px 0 #D9DFE7, 1px 1px 0 #D9DFE7");
+//   color: #000;
+// }
+// .application_footer_spacer {
+//   background: #dfe6ef;
+//   height: 2em;
+// }
+// .forabg .mobile_item_link_content .mobile_subtitle + .mobile_comment {
+//   height: 0px;
+// }
+
 /*Icons*/
+.forum-icon i:only-child {
+  display: none;
+}
 .forum_new, .cat_new {
-  background: url(http://i48.servimg.com/u/f48/17/08/39/22/folder10.gif) no-repeat scroll 0 50%;
+  .forum-icon {
+    background: url(http://i48.servimg.com/u/f48/17/08/39/22/folder10.gif) no-repeat scroll 0 50%;
+  }
 }
 .forum_no_new, .cat_no_new {
-  background: url(http://i48.servimg.com/u/f48/17/08/39/22/folder12.gif) no-repeat scroll 0 50%;
+  .forum-icon {
+    background: url(http://i48.servimg.com/u/f48/17/08/39/22/folder12.gif) no-repeat scroll 0 50%;
+  }
 }
-.folder_announce {
+.folder_announce .forum-icon {
   background: url(http://i39.servimg.com/u/f39/17/08/39/22/announ11.png) no-repeat scroll 0 50%;
 }
-.folder_announce_new {
+.folder_announce_new .forum-icon {
   background: url(http://i39.servimg.com/u/f39/17/08/39/22/announ12.png) no-repeat scroll 0 50%;
 }
-.folder_sticky {
+.folder_sticky .forum-icon {
   background: url(http://i39.servimg.com/u/f39/17/08/39/22/pinned11.png) no-repeat scroll 0 50%;
 }
-.folder_sticky_new {
+.folder_sticky_new .forum-icon {
   background: url(http://i39.servimg.com/u/f39/17/08/39/22/pinned12.png) no-repeat scroll 0 50%;
 }
-.folder_locked {
+.folder_locked .forum-icon {
   background: url(http://i48.servimg.com/u/f48/17/08/39/22/topic_11.gif) no-repeat scroll 0 50%;
 }
-.folder_new {
+.folder_new .forum-icon {
   background: url(http://i48.servimg.com/u/f48/17/08/39/22/topic_14.gif) no-repeat scroll 0 50%;
 }
-.folder_no_new {
+.folder_no_new .forum-icon {
   background: url(http://i48.servimg.com/u/f48/17/08/39/22/topic_13.gif) no-repeat scroll 0 50%;
 }
-.folder_hot {
+.folder_hot .forum-icon {
   background: url(http://i48.servimg.com/u/f48/17/08/39/22/topic_12.gif) no-repeat scroll 0 50%;
 }
-.folder_hot_new {
+.folder_hot_new .forum-icon {
   background: url(http://i48.servimg.com/u/f48/17/08/39/22/topic_10.gif) no-repeat scroll 0 50%;
 }
 
